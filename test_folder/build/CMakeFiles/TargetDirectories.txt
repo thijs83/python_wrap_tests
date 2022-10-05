@@ -1,0 +1,6 @@
+/home/thijs/py_wrapper_experiment/test_folder/build/CMakeFiles/rebuild_cache.dir
+/home/thijs/py_wrapper_experiment/test_folder/build/CMakeFiles/edit_cache.dir
+/home/thijs/py_wrapper_experiment/test_folder/build/CMakeFiles/cmake_example.dir
+/home/thijs/py_wrapper_experiment/test_folder/build/CMakeFiles/mymath.dir
+/home/thijs/py_wrapper_experiment/test_folder/build/pybind11/CMakeFiles/rebuild_cache.dir
+/home/thijs/py_wrapper_experiment/test_folder/build/pybind11/CMakeFiles/edit_cache.dir
