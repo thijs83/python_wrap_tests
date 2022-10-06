@@ -25,7 +25,7 @@ def PyCompute(x: float, ys: np.ndarray) -> float:
     return x
 
 
-LOOPS: int = 100000000
+LOOPS: int = 100000
 
 if __name__ == "__main__":
     # initialize random

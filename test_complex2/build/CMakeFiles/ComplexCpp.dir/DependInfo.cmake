@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thijs/py_wrapper_experiment/test_complex2/src/ComplexCpp.cpp" "/home/thijs/py_wrapper_experiment/test_complex2/build/CMakeFiles/ComplexCpp.dir/src/ComplexCpp.cpp.o"
+  "/home/thijs/py_wrapper_experiment/python_wrap_tests/test_complex2/src/ComplexCpp.cpp" "/home/thijs/py_wrapper_experiment/python_wrap_tests/test_complex2/build/CMakeFiles/ComplexCpp.dir/src/ComplexCpp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,6 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/eigen3"
   "../pybind11/include"
   "/usr/include/python3.8"
   )

@@ -1,7 +1,6 @@
 #include <cmath>
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
-#include <eigen3/Eigen/Core>
 #include <pybind11/eigen.h>
 #include <iostream>
 
@@ -10,8 +9,8 @@ namespace py = pybind11;
 
 double Compute( double x, py::EigenDRef<Eigen::VectorXd> ys ) {
 //  std::cout << "x:" << std::setprecision( 16 ) << x << std::endl;
-
-    for( int i = 0; i < ys.cols(); ++i ) {
+    std::cout << ys.rows() << "/n";
+    for( int i = 0; i < ys.rows(); ++i ) {
         double y = ys( i );
 //      std::cout << "y:" << std::setprecision( 16 ) << y << std::endl;
         x += y;
@@ -24,5 +23,5 @@ double Compute( double x, py::EigenDRef<Eigen::VectorXd> ys ) {
 };
 
 PYBIND11_MODULE( ComplexCpp, m ) {
-    m.def( "Compute", &Compute, "a more complicated computing" );
+    m.def( "Compute", &Compute);
 };

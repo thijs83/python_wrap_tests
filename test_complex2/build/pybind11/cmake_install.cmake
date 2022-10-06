@@ -1,4 +1,4 @@
-# Install script for directory: /home/thijs/py_wrapper_experiment/test_complex2/pybind11
+# Install script for directory: /home/thijs/py_wrapper_experiment/python_wrap_tests/test_complex2/pybind11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
